@@ -1,0 +1,59 @@
+/* Main Stylesheet */
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Poppins', 'Segoe UI', 
+  Sans-Serif;
+  background-image: url(
+  'images/school-yard.jpeg'
+  );
+  background-size: cover;
+  background-repeat: repeat-y;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ma-carte{
+  background: white;
+  width: 100%;
+  max-width: 330px;
+  text-align: center;
+  padding: 2em;
+  letter-spacing: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px
+  rgba(0, 0, 0, 0.25);
+}
+
+.compteur{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 5em;
+  color: #8B4513;
+}
+
+#bouton{
+  font-size: 1.5em;
+  padding: 0.8em;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px
+  rgba(0, 0, 0, 0.15);
+}
+
+.effacer{
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 0.8em;
+  border-radius: 15px;
+  margin-top: 20px;
+  background: grey;
+  color: white;
+}
